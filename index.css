@@ -8,10 +8,6 @@ body {
     z-index: -2;
 }
 
-h1, button, a, p {
-    z-index: 1;
-}
-
 .container {
     height: 100vh;
 }
@@ -64,4 +60,8 @@ h1, button, a, p {
     bottom: 5vw;
     right: 5vw;
     rotate: 10deg;
+}
+
+#English, #Chinese, #Phonetic {
+    text-align: center;
 }
