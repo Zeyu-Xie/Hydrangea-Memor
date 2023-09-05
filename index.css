@@ -1,6 +1,8 @@
 body {
     background-image: url("./images/cat.jpg");
     background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
 .container {
