@@ -12,7 +12,19 @@ const switchWord = _index => {
 
 fetch("./data/GRE_words.json").then(res => res.json()).then(res => {
     dic = res
-    switchWord(1537)
+    switchWord(wordIndex)
 }).catch(err => {
     console.log("ERROR", err)
+})
+
+document.addEventListener("click", () => {
+    wordIndex++
+    switchWord(wordIndex)
+})
+
+document.addEventListener("keydown", evt => {
+    if (evt.keyCode === 32) {
+        wordIndex++
+        switchWord(wordIndex)
+    }
 })
