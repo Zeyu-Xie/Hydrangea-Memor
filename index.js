@@ -2,6 +2,10 @@ const __index = document.getElementById("Index")
 const _English = document.getElementById("English")
 const _Chinese = document.getElementById("Chinese")
 const _Phonetic = document.getElementById("Phonetic")
+const _previous = document.getElementById("previous")
+const _next = document.getElementById("next")
+const _switch = document.getElementById("switch")
+
 let dic = {}
 let wordIndex = 0
 
@@ -37,6 +41,23 @@ fetch("./data/GRE_words.json").then(res => res.json()).then(res => {
 }).catch(err => {
     console.log("ERROR", err)
 })
+
+_previous.onclick = () => {
+    wordIndex = Math.max(wordIndex - 1, 0)
+    switchWord(wordIndex)
+}
+
+_next.onclick = () => {
+    wordIndex = Math.min(wordIndex + 1, dic.items.length - 1)
+    switchWord(wordIndex)
+}
+
+_switch.onclick = () => {
+    wordIndex = Number(window.prompt("Input your destination index")) - 1
+    wordIndex = Math.max(wordIndex, 0)
+    wordIndex = Math.min(wordIndex, dic.items.length - 1)
+    switchWord(wordIndex)
+}
 
 document.addEventListener("keydown", evt => {
     switch (evt.keyCode) {
