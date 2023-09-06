@@ -5,6 +5,10 @@ const _Phonetic = document.getElementById("Phonetic")
 const _previous = document.getElementById("previous")
 const _next = document.getElementById("next")
 const _switch = document.getElementById("switch")
+const _EnglishButton = document.getElementById("EnglishButton")
+const _ChineseButton = document.getElementById("ChineseButton")
+const _PhoneticButton = document.getElementById("PhoneticButton")
+const _AllButton = document.getElementById("AllButton")
 
 let dic = {}
 let wordIndex = 0
@@ -57,6 +61,30 @@ _switch.onclick = () => {
     wordIndex = Math.max(wordIndex, 0)
     wordIndex = Math.min(wordIndex, dic.items.length - 1)
     switchWord(wordIndex)
+}
+
+_EnglishButton.onclick = () => {
+    showEnglish()
+    hideChinese()
+    hidePhonetic()
+}
+
+_ChineseButton.onclick = () => {
+    hideEnglish()
+    showChinese()
+    hidePhonetic()
+}
+
+_PhoneticButton.onclick = () => {
+    hideEnglish()
+    hideChinese()
+    showPhonetic()
+}
+
+_AllButton.onclick = () => {
+    showEnglish()
+    showChinese()
+    showPhonetic()
 }
 
 document.addEventListener("keydown", evt => {

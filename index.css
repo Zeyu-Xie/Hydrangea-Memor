@@ -26,15 +26,21 @@ body {
     left: 1rem;
 }
 
-#buttonBox button {
+#buttonBox button, #buttonBox_1 button {
     padding-left: 0;
     margin-left: 0;
     padding-top: 0;
     margin-top: 0;
 }
 
-#buttonBox button:hover {
+#buttonBox button:hover, #buttonBox_1 button:hover {
     text-decoration: underline;
+}
+
+#buttonBox_1 {
+    position: absolute;
+    top: 6rem;
+    left: 1rem;
 }
 
 #Kokomi {
