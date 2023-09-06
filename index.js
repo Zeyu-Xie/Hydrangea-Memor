@@ -9,10 +9,49 @@ const _EnglishButton = document.getElementById("EnglishButton")
 const _ChineseButton = document.getElementById("ChineseButton")
 const _PhoneticButton = document.getElementById("PhoneticButton")
 const _AllButton = document.getElementById("AllButton")
+const _GREWords = document.getElementById("GRE_words")
+const _IELTSWords = document.getElementById("IELTS_words")
 const _RangeButton = document.getElementById("RangeButton")
 
 let dic = {}
 let wordIndex = 0
+
+const switchDic = type => {
+    wordIndex = 0
+    _RangeButton.value = 0
+    switch (type) {
+        case "GRE": {
+            fetch("./data/GRE_words.json").then(res => res.json()).then(res => {
+                dic = res
+                switchWord(wordIndex)
+                _RangeButton.max = dic.items.length - 1
+            }).catch(err => {
+                console.log("ERROR", err)
+            })
+            break
+        }
+        case "IELTS": {
+            fetch("./data/IELTS_words.json").then(res => res.json()).then(res => {
+                dic = res
+                switchWord(wordIndex)
+                _RangeButton.max = dic.items.length - 1
+            }).catch(err => {
+                console.log("ERROR", err)
+            })
+            break
+        }
+        default: {
+            fetch("./data/GRE_words.json").then(res => res.json()).then(res => {
+                dic = res
+                switchWord(wordIndex)
+                _RangeButton.max = dic.items.length - 1
+            }).catch(err => {
+                console.log("ERROR", err)
+            })
+            break
+        }
+    }
+}
 
 const switchWord = _index => {
     __index.innerText = (_index + 1) + " / " + (dic.items.length)
@@ -40,13 +79,9 @@ const showPhonetic = () => {
     _Phonetic.style.display = "block"
 }
 
-fetch("./data/GRE_words.json").then(res => res.json()).then(res => {
-    dic = res
-    switchWord(wordIndex)
-    _RangeButton.max = dic.items.length - 1
-}).catch(err => {
-    console.log("ERROR", err)
-})
+
+switchDic("GRE")
+
 
 _previous.onclick = () => {
     wordIndex = Math.max(wordIndex - 1, 0)
@@ -87,6 +122,14 @@ _AllButton.onclick = () => {
     showEnglish()
     showChinese()
     showPhonetic()
+}
+
+_GREWords.onclick = () => {
+    switchDic("GRE")
+}
+
+_IELTSWords.onclick = () => {
+    switchDic("IELTS")
 }
 
 _RangeButton.onchange = () => {
