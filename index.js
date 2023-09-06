@@ -9,6 +9,7 @@ const _EnglishButton = document.getElementById("EnglishButton")
 const _ChineseButton = document.getElementById("ChineseButton")
 const _PhoneticButton = document.getElementById("PhoneticButton")
 const _AllButton = document.getElementById("AllButton")
+const _RangeButton = document.getElementById("RangeButton")
 
 let dic = {}
 let wordIndex = 0
@@ -42,6 +43,7 @@ const showPhonetic = () => {
 fetch("./data/GRE_words.json").then(res => res.json()).then(res => {
     dic = res
     switchWord(wordIndex)
+    _RangeButton.max = dic.items.length - 1
 }).catch(err => {
     console.log("ERROR", err)
 })
@@ -85,6 +87,11 @@ _AllButton.onclick = () => {
     showEnglish()
     showChinese()
     showPhonetic()
+}
+
+_RangeButton.onchange = () => {
+    wordIndex = Number(_RangeButton.value)
+    switchWord(wordIndex)
 }
 
 document.addEventListener("keydown", evt => {

@@ -42,6 +42,11 @@ body {
     top: 6rem;
     left: 1rem;
 }
+#buttonBox_2 {
+    position: absolute;
+    top: 8.5rem;
+    left: 1rem;
+}
 
 #Kokomi {
     width: 30vw;
