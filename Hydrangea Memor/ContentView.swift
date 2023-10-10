@@ -7,45 +7,26 @@
 
 import SwiftUI
 
-struct Page_1: View {
-    var body: some View {
-        NavigationView {
-            
-            List {
-                
-                NavigationLink(destination: WordListView(source: "https://zeyu-xie.github.io/Hydrangea-Memor/data/IELTS_words.json").navigationTitle("IELTS Words")) {
-                    Image(systemName: "i.square").foregroundColor(.teal)
-                    Text("IELTS Words")
-                }
-                
-                NavigationLink(destination: WordListView(source: "https://zeyu-xie.github.io/Hydrangea-Memor/data/GRE_words.json").navigationTitle("GRE Words")) {
-                    Image(systemName: "g.square").foregroundColor(.teal)
-                    Text("GRE Words")
-                }
-                
-            }.listStyle(InsetListStyle())
-            
-        }
-    }
-}
-
 struct ContentView: View {
     var body: some View {
         
         NavigationView{
             List {
+                
+                Text("Pages").font(.callout).foregroundColor(.secondary)
+                
                 NavigationLink(destination: Page_1().navigationTitle("Words List")) {
                     Image(systemName: "list.bullet.rectangle").foregroundColor(.blue)
                     Text("Words List")
                 }
                 
-                NavigationLink(destination: Text("Page 1")) {
-                    Text("Item 1")
+                NavigationLink(destination: About()) {
+                    Image(systemName: "person").foregroundColor(.blue)
+                    Text("About")
                 }
                 
-                NavigationLink(destination: Text("Page 1")) {
-                    Text("Item 1")
-                }
+                Text("Others").font(.callout).foregroundColor(.secondary).padding(.top)
+
             }.frame(width: 150)
                 .listStyle(SidebarListStyle()).padding(.top).padding(.bottom)
         }.ignoresSafeArea()
