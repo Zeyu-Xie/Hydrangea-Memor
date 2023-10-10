@@ -16,32 +16,22 @@ struct ContentView: View {
     
     var body: some View {
         TabView {
-            ScrollView {
-                
-                ForEach(0..<number, id: \.self) { num in
-                    LazyHStack(alignment: .top) {
-                        
-                        VStack(alignment: .leading) {
-                            Text(wordList.items[num].English ?? "")
-                        }.frame(width: 150, alignment: .leading).padding(.trailing)
-                        
-                        Divider()
-                        
-                        VStack(alignment: .leading) {
-                            Text(wordList.items[num].Chinese ?? "")
-                        }.frame(width: 150, alignment: .leading).padding(.leading)
-                        
-                    }.frame(alignment: .leading)
-                    
-                    Divider()
+            ScrollView{
+                LazyVStack {
+                    ForEach(0..<number, id: \.self) { i in
+                        HStack {
+                            Text(wordList.items[i].English != nil ? wordList.items[i].English! : "").frame(width: 200, alignment: .leading)
+                            
+                            
+                            
+                            Text(wordList.items[i].Chinese != nil ? wordList.items[i].Chinese! : "").frame(width: 200, alignment: .leading)
+                        }.padding()
+                    }
                 }
             }.tabItem {
                 Text("Word List")
             }
-
-            
-        
-    }
+        }
         .padding().onAppear {
             getWordList()
         }
