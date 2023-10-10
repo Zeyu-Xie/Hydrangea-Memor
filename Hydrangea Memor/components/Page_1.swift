@@ -38,9 +38,3 @@ struct Page_1: View {
         }.background(.background)
     }
 }
-
-struct Page_2 : View {
-    var body: some View {
-        Text("Hello World")
-    }
-}

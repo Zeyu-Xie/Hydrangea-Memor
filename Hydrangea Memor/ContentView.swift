@@ -10,6 +10,8 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         
+        
+        
         NavigationView{
             List {
                 
@@ -26,9 +28,9 @@ struct ContentView: View {
                 }
                 
                 Text("Others").font(.callout).foregroundColor(.secondary).padding(.top)
-
-            }.frame(width: 150)
-                .listStyle(SidebarListStyle()).padding(.top).padding(.bottom)
+                
+                
+            }.frame(width: 150).listStyle(SidebarListStyle()).padding(.top).padding(.bottom)
         }.ignoresSafeArea()
     }
 }
