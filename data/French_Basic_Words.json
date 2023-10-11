@@ -1,0 +1,553 @@
+{
+    "title": "French Basic Words",
+    "number": 337,
+    "author": "Acan",
+    "date": "Tuesday, September 5, 2023 7:00:08 PM",
+    "index_num": 2,
+    "indexes": [
+        "English",
+        "Chinese"
+    ],
+    "items": [
+        {
+            "English": "Pays",
+            "Chinese": "国家"
+        },
+        {
+            "English": "Australie",
+            "Chinese": "澳大利亚"
+        },
+        {
+            "English": "Cambodge",
+            "Chinese": "柬埔寨"
+        },
+        {
+            "English": "Canada",
+            "Chinese": "加拿大"
+        },
+        {
+            "English": "Chine",
+            "Chinese": "中国"
+        },
+        {
+            "English": "Egypte",
+            "Chinese": "埃及"
+        },
+        {
+            "English": "Angleterre",
+            "Chinese": "英国"
+        },
+        {
+            "English": "France",
+            "Chinese": "法国"
+        },
+        {
+            "English": "Allemagne",
+            "Chinese": "德国"
+        },
+        {
+            "English": "Grèce",
+            "Chinese": "希腊"
+        },
+        {
+            "English": "Inde",
+            "Chinese": "印度"
+        },
+        {
+            "English": "Indonésie",
+            "Chinese": "印度尼西亚"
+        },
+        {
+            "English": "Italie",
+            "Chinese": "意大利"
+        },
+        {
+            "English": "Japon",
+            "Chinese": "日本"
+        },
+        {
+            "English": "Mexique",
+            "Chinese": "墨西哥"
+        },
+        {
+            "English": "Maroc",
+            "Chinese": "摩洛哥"
+        },
+        {
+            "English": "Pérou",
+            "Chinese": "秘鲁"
+        },
+        {
+            "English": "Espagne",
+            "Chinese": "西班牙"
+        },
+        {
+            "English": "Thaïlande",
+            "Chinese": "泰国"
+        },
+        {
+            "English": "USA",
+            "Chinese": "美国"
+        },
+        {
+            "English": "Langues",
+            "Chinese": "语言"
+        },
+        {
+            "English": "Arabe",
+            "Chinese": "阿拉伯语"
+        },
+        {
+            "English": "Chinois",
+            "Chinese": "中文"
+        },
+        {
+            "English": "Anglais",
+            "Chinese": "英语"
+        },
+        {
+            "English": "Français",
+            "Chinese": "法语"
+        },
+        {
+            "English": "Allemand",
+            "Chinese": "德语"
+        },
+        {
+            "English": "Grecque",
+            "Chinese": "希腊语"
+        },
+        {
+            "English": "Hébreu",
+            "Chinese": "希伯来语"
+        },
+        {
+            "English": "Hindi",
+            "Chinese": "印地语"
+        },
+        {
+            "English": "Italien",
+            "Chinese": "意大利语"
+        },
+        {
+            "English": "Japonais",
+            "Chinese": "日语"
+        },
+        {
+            "English": "Coréen",
+            "Chinese": "韩语"
+        },
+        {
+            "English": "Latin",
+            "Chinese": "拉丁语"
+        },
+        {
+            "English": "Russe",
+            "Chinese": "俄语"
+        },
+        {
+            "English": "Espagnol",
+            "Chinese": "西班牙语"
+        },
+        {
+            "English": "Ourdou",
+            "Chinese": "乌尔都语"
+        },
+        {
+            "English": "Journées",
+            "Chinese": "星期"
+        },
+        {
+            "English": "Lundi",
+            "Chinese": "星期一"
+        },
+        {
+            "English": "Mardi",
+            "Chinese": "星期二"
+        },
+        {
+            "English": "Mercredi",
+            "Chinese": "星期三"
+        },
+        {
+            "English": "Jeudi",
+            "Chinese": "星期四"
+        },
+        {
+            "English": "Vendredi",
+            "Chinese": "星期五"
+        },
+        {
+            "English": "Samedi",
+            "Chinese": "星期六"
+        },
+        {
+            "English": "Dimanche",
+            "Chinese": "星期日"
+        },
+        {
+            "English": "temps",
+            "Chinese": "时间"
+        },
+        {
+            "English": "heure",
+            "Chinese": "小时"
+        },
+        {
+            "English": "minute",
+            "Chinese": "分钟"
+        },
+        {
+            "English": "deuxième",
+            "Chinese": "秒钟"
+        },
+        {
+            "English": "différents objets",
+            "Chinese": "各种物体"
+        },
+        {
+            "English": "art",
+            "Chinese": "艺术品"
+        },
+        {
+            "English": "banque",
+            "Chinese": "银行"
+        },
+        {
+            "English": "plage",
+            "Chinese": "海滩"
+        },
+        {
+            "English": "livre",
+            "Chinese": "书"
+        },
+        {
+            "English": "à bicyclette",
+            "Chinese": "骑自行车"
+        },
+        {
+            "English": "en bus",
+            "Chinese": "坐公共汽车"
+        },
+        {
+            "English": "en voiture",
+            "Chinese": "开车 / 坐车"
+        },
+        {
+            "English": "par le train",
+            "Chinese": "坐火车"
+        },
+        {
+            "English": "café",
+            "Chinese": "咖啡馆"
+        },
+        {
+            "English": "pays",
+            "Chinese": "国家"
+        },
+        {
+            "English": "désert",
+            "Chinese": "沙漠"
+        },
+        {
+            "English": "dictionnaire",
+            "Chinese": "字典"
+        },
+        {
+            "English": "terre",
+            "Chinese": "地球"
+        },
+        {
+            "English": "fleurs",
+            "Chinese": "花"
+        },
+        {
+            "English": "football",
+            "Chinese": "足球"
+        },
+        {
+            "English": "forêt",
+            "Chinese": "森林"
+        },
+        {
+            "English": "jeu",
+            "Chinese": "游戏"
+        },
+        {
+            "English": "jardin",
+            "Chinese": "花园"
+        },
+        {
+            "English": "géographie",
+            "Chinese": "地理"
+        },
+        {
+            "English": "histoire",
+            "Chinese": "历史"
+        },
+        {
+            "English": "maison",
+            "Chinese": "房子"
+        },
+        {
+            "English": "île",
+            "Chinese": "岛"
+        },
+        {
+            "English": "lac",
+            "Chinese": "湖"
+        },
+        {
+            "English": "bibliothèque",
+            "Chinese": "图书馆"
+        },
+        {
+            "English": "math",
+            "Chinese": "数学"
+        },
+        {
+            "English": "lune",
+            "Chinese": "月亮"
+        },
+        {
+            "English": "montagne",
+            "Chinese": "山"
+        },
+        {
+            "English": "films",
+            "Chinese": "电影"
+        },
+        {
+            "English": "musique",
+            "Chinese": "音乐"
+        },
+        {
+            "English": "océan",
+            "Chinese": "海洋"
+        },
+        {
+            "English": "bureau",
+            "Chinese": "办公室"
+        },
+        {
+            "English": "à pied",
+            "Chinese": "徒步"
+        },
+        {
+            "English": "joueur",
+            "Chinese": "播放机"
+        },
+        {
+            "English": "rivière",
+            "Chinese": "河流"
+        },
+        {
+            "English": "science",
+            "Chinese": "科学"
+        },
+        {
+            "English": "mer",
+            "Chinese": "海"
+        },
+        {
+            "English": "ciel",
+            "Chinese": "天空"
+        },
+        {
+            "English": "football",
+            "Chinese": "足球"
+        },
+        {
+            "English": "étoiles",
+            "Chinese": "星星"
+        },
+        {
+            "English": "supermarché",
+            "Chinese": "超级市场"
+        },
+        {
+            "English": "piscine",
+            "Chinese": "游泳池"
+        },
+        {
+            "English": "théâtre",
+            "Chinese": "剧场"
+        },
+        {
+            "English": "arbre",
+            "Chinese": "树"
+        },
+        {
+            "English": "temps",
+            "Chinese": "天气"
+        },
+        {
+            "English": "intempéries",
+            "Chinese": "恶劣天气"
+        },
+        {
+            "English": "nuageux",
+            "Chinese": "多云"
+        },
+        {
+            "English": "froid",
+            "Chinese": "冷"
+        },
+        {
+            "English": "frais",
+            "Chinese": "凉"
+        },
+        {
+            "English": "brumeux",
+            "Chinese": "有雾"
+        },
+        {
+            "English": "chaud",
+            "Chinese": "热"
+        },
+        {
+            "English": "beau temps",
+            "Chinese": "好天气"
+        },
+        {
+            "English": "coulée",
+            "Chinese": "倾盆大雨"
+        },
+        {
+            "English": "pluie",
+            "Chinese": "雨"
+        },
+        {
+            "English": "pleut",
+            "Chinese": "下雨"
+        },
+        {
+            "English": "neige",
+            "Chinese": "雪"
+        },
+        {
+            "English": "neige",
+            "Chinese": "下雪"
+        },
+        {
+            "English": "glace",
+            "Chinese": "冰"
+        },
+        {
+            "English": "ensoleillé",
+            "Chinese": "晴朗"
+        },
+        {
+            "English": "venteux",
+            "Chinese": "有风"
+        },
+        {
+            "English": "printemps",
+            "Chinese": "春天"
+        },
+        {
+            "English": "été",
+            "Chinese": "夏天"
+        },
+        {
+            "English": "automne",
+            "Chinese": "秋季"
+        },
+        {
+            "English": "hiver",
+            "Chinese": "冬天"
+        },
+        {
+            "English": "personnes",
+            "Chinese": "人"
+        },
+        {
+            "English": "tante",
+            "Chinese": "阿姨"
+        },
+        {
+            "English": "bébé",
+            "Chinese": "婴儿"
+        },
+        {
+            "English": "frère",
+            "Chinese": "兄，弟"
+        },
+        {
+            "English": "cousin",
+            "Chinese": "堂兄弟；堂姐妹；表兄弟；表姐妹"
+        },
+        {
+            "English": "fille",
+            "Chinese": "女儿"
+        },
+        {
+            "English": "dentiste",
+            "Chinese": "牙科医生"
+        },
+        {
+            "English": "médecin",
+            "Chinese": "医生"
+        },
+        {
+            "English": "père",
+            "Chinese": "父亲"
+        },
+        {
+            "English": "grand-père",
+            "Chinese": "祖父"
+        },
+        {
+            "English": "grand-mère",
+            "Chinese": "祖母"
+        },
+        {
+            "English": "mari",
+            "Chinese": "丈夫"
+        },
+        {
+            "English": "mère",
+            "Chinese": "母亲"
+        },
+        {
+            "English": "neveu",
+            "Chinese": "侄子；外甥"
+        },
+        {
+            "English": "nièce",
+            "Chinese": "侄女；外甥女"
+        },
+        {
+            "English": "infirmière",
+            "Chinese": "护士"
+        },
+        {
+            "English": "policier",
+            "Chinese": "警察"
+        },
+        {
+            "English": "facteur",
+            "Chinese": "邮差"
+        },
+        {
+            "English": "professeur",
+            "Chinese": "教授"
+        },
+        {
+            "English": "fils",
+            "Chinese": "儿子"
+        },
+        {
+            "English": "professeur",
+            "Chinese": "老师"
+        },
+        {
+            "English": "oncle",
+            "Chinese": "叔叔"
+        },
+        {
+            "English": "femme",
+            "Chinese": "妻子"
+        }
+    ]
+}
