@@ -1,0 +1,1433 @@
+{
+    "title": "GRE Words",
+    "number": 337,
+    "author": "Acan",
+    "date": "Tuesday, September 5, 2023 7:00:08 PM",
+    "index_num": 2,
+    "indexes": [
+        "English",
+        "Chinese"
+    ],
+    "items": [
+        {
+            "English": "Abdominal Pain ",
+            "Chinese": "腹痛"
+        },
+        {
+            "English": "Ablative therapy ",
+            "Chinese": "剝括療法"
+        },
+        {
+            "English": "Adenocarcinoma ",
+            "Chinese": "腺癌"
+        },
+        {
+            "English": "Adjuvant therapy ",
+            "Chinese": "輔助療法"
+        },
+        {
+            "English": "Adrenal gland ",
+            "Chinese": "腎上腺"
+        },
+        {
+            "English": "Advance directives ",
+            "Chinese": "預先指示"
+        },
+        {
+            "English": "Alopecia ",
+            "Chinese": "禿髮症"
+        },
+        {
+            "English": "Alternative therapy ",
+            "Chinese": "另類療法"
+        },
+        {
+            "English": "Androgen ",
+            "Chinese": "雄激素"
+        },
+        {
+            "English": "Androgen blockade ",
+            "Chinese": "雄激素阻礙"
+        },
+        {
+            "English": "Anemia ",
+            "Chinese": "貧血"
+        },
+        {
+            "English": "Anesthesia",
+            "Chinese": "麻醉"
+        },
+        {
+            "English": "Anesthesiologist ",
+            "Chinese": "麻醉师"
+        },
+        {
+            "English": "麻醉師",
+            "Chinese": "Aneuploid "
+        },
+        {
+            "English": "Aneuploid",
+            "Chinese": "非常數染色體的"
+        },
+        {
+            "English": "Angiogenesis",
+            "Chinese": "血管生成"
+        },
+        {
+            "English": "Antibiotic ",
+            "Chinese": "抗生素"
+        },
+        {
+            "English": "Antibody ",
+            "Chinese": "抗體"
+        },
+        {
+            "English": "Antiemetic",
+            "Chinese": "止吐的"
+        },
+        {
+            "English": "Antiestrogen",
+            "Chinese": "抗雌激素"
+        },
+        {
+            "English": "Antigen",
+            "Chinese": "抗原"
+        },
+        {
+            "English": "Antimetabolites ",
+            "Chinese": "抗代谢产物"
+        },
+        {
+            "English": "Antioxidants ",
+            "Chinese": "抗氧化剂"
+        },
+        {
+            "English": "Apoptosis",
+            "Chinese": "细胞程序性死亡"
+        },
+        {
+            "English": "Aspiration",
+            "Chinese": "抽取"
+        },
+        {
+            "English": "Asymptomatic ",
+            "Chinese": "無癥狀的 "
+        },
+        {
+            "English": "Atypical ",
+            "Chinese": "非典型的"
+        },
+        {
+            "English": "Autologous bone marrow transplantation ",
+            "Chinese": "自體骨髓移植術"
+        },
+        {
+            "English": "Axilla ",
+            "Chinese": "腋部"
+        },
+        {
+            "English": "Axillary dissection ",
+            "Chinese": "腋部解剖"
+        },
+        {
+            "English": "Basal cell carcinoma ",
+            "Chinese": "基細胞癌"
+        },
+        {
+            "English": "Basic science ",
+            "Chinese": "基礎科學"
+        },
+        {
+            "English": "Behavioral research ",
+            "Chinese": "行為研究"
+        },
+        {
+            "English": "Benign ",
+            "Chinese": "良性的Benign tumor "
+        },
+        {
+            "English": "Benign tumor",
+            "Chinese": "良性肿瘤"
+        },
+        {
+            "English": "Benign prostatic hyperplasia",
+            "Chinese": "良性前列腺增殖"
+        },
+        {
+            "English": "Beta-carotene ",
+            "Chinese": "乙胡蘿蔔素"
+        },
+        {
+            "English": "Bilateral",
+            "Chinese": "兩側的"
+        },
+        {
+            "English": "Biological therapy ",
+            "Chinese": "生物製劑療法"
+        },
+        {
+            "English": "Biologic response modifiers",
+            "Chinese": "生物反應改變物"
+        },
+        {
+            "English": "Biomarkers",
+            "Chinese": "生物標記"
+        },
+        {
+            "English": "Biopsy",
+            "Chinese": "活組織切片檢查"
+        },
+        {
+            "English": "Blood count ",
+            "Chinese": "血球計數"
+        },
+        {
+            "English": "B-lymphocytes or B-cells ",
+            "Chinese": "B-淋巴細胞"
+        },
+        {
+            "English": "Bone marrow ",
+            "Chinese": "骨髓"
+        },
+        {
+            "English": "Bone marrow aspiration and biopsy ",
+            "Chinese": "骨髓抽出檢驗"
+        },
+        {
+            "English": "Bone marrow transplant ",
+            "Chinese": "骨髓移植"
+        },
+        {
+            "English": "Bone scan ",
+            "Chinese": "骨掃描"
+        },
+        {
+            "English": "Bone survey ",
+            "Chinese": "骨檢測"
+        },
+        {
+            "English": "Brain scan ",
+            "Chinese": "腦部掃描"
+        },
+        {
+            "English": "Brachytherapy ",
+            "Chinese": "組織間放射治療"
+        },
+        {
+            "English": "Calcifications ",
+            "Chinese": "鈣化"
+        },
+        {
+            "English": "Cancer ",
+            "Chinese": "癌症"
+        },
+        {
+            "English": "Cancer care team ",
+            "Chinese": "癌症治療工作組"
+        },
+        {
+            "English": "Cancer cell ",
+            "Chinese": "癌細胞"
+        },
+        {
+            "English": "Cancer-related checkup ",
+            "Chinese": "癌症相關的健康檢查"
+        },
+        {
+            "English": "Cancer susceptibility genes ",
+            "Chinese": "易感染癌症基因"
+        },
+        {
+            "English": "Cancer vaccine ",
+            "Chinese": "癌症疫苗"
+        },
+        {
+            "English": "Carcinoembryonic antigen (CEA) ",
+            "Chinese": "胚胎性癌抗原"
+        },
+        {
+            "English": "Carcinogen ",
+            "Chinese": "致癌物質"
+        },
+        {
+            "English": "Carcinoma ",
+            "Chinese": "癌瘤"
+        },
+        {
+            "English": "Carcinoma in situ ",
+            "Chinese": "原位癌"
+        },
+        {
+            "English": "Case manager ",
+            "Chinese": "病案管理員"
+        },
+        {
+            "English": "Catheter ",
+            "Chinese": "導管"
+        },
+        {
+            "English": "Cell ",
+            "Chinese": "細胞"
+        },
+        {
+            "English": "Cell cycle ",
+            "Chinese": "細胞週期"
+        },
+        {
+            "English": "Cervix",
+            "Chinese": "子宫颈"
+        },
+        {
+            "English": "Chemoprevention",
+            "Chinese": "化療預防 "
+        },
+        {
+            "English": "Chemotherapy",
+            "Chinese": "化學治療"
+        },
+        {
+            "English": "Chromosome ",
+            "Chinese": "染色體"
+        },
+        {
+            "English": "Clinical trials ",
+            "Chinese": "臨床試驗"
+        },
+        {
+            "English": "Colony stimulating factors (CSF) ",
+            "Chinese": "骨髓生長刺激因子"
+        },
+        {
+            "English": "Combined modality therapy ",
+            "Chinese": "合併治療法"
+        },
+        {
+            "English": "Complementary therapy ",
+            "Chinese": "輔助治療法"
+        },
+        {
+            "English": "Computed tomography (CT) scan ",
+            "Chinese": "電腦斷層掃描"
+        },
+        {
+            "English": "Corticosteroid ",
+            "Chinese": "皮質類脂醇"
+        },
+        {
+            "English": "Cryoablation ",
+            "Chinese": "冷凍剝脫術"
+        },
+        {
+            "English": "Cryosurgery ",
+            "Chinese": "冷凍切除法"
+        },
+        {
+            "English": "Cyst (sist) ",
+            "Chinese": "囊腫"
+        },
+        {
+            "English": "Cystitis ",
+            "Chinese": "膀胱發炎 "
+        },
+        {
+            "English": "Cystoscopy ",
+            "Chinese": "膀胱鏡檢查細胞介素"
+        },
+        {
+            "English": "Cytology ",
+            "Chinese": "細胞學"
+        },
+        {
+            "English": "Cytometry",
+            "Chinese": "细胞计数法"
+        },
+        {
+            "English": "Cytotoxic",
+            "Chinese": "細胞毒素的"
+        },
+        {
+            "English": "D & C( dilatation and curettage) ",
+            "Chinese": "括宮術(擴張子宮頸、刮除子宮內膜)"
+        },
+        {
+            "English": "DNA repair ",
+            "Chinese": "基因修復"
+        },
+        {
+            "English": "Deoxyribonucleic acid (DNA)",
+            "Chinese": "脫氧核糖核酸"
+        },
+        {
+            "English": "Dermatologist",
+            "Chinese": "皮膚科醫師"
+        },
+        {
+            "English": "Detection ",
+            "Chinese": "發現"
+        },
+        {
+            "English": "Diagnosis ",
+            "Chinese": "診斷"
+        },
+        {
+            "English": "Diaphragma ",
+            "Chinese": "隔膜"
+        },
+        {
+            "English": "Diethylstilbestrol (DES) ",
+            "Chinese": "乙烯雌酚"
+        },
+        {
+            "English": "Dietitian/registered dietitian/nutritionist ",
+            "Chinese": "營養師"
+        },
+        {
+            "English": "Differentiation ",
+            "Chinese": "分化"
+        },
+        {
+            "English": "Dissection ",
+            "Chinese": "解剖，夾層分離"
+        },
+        {
+            "English": "Dosimetrist",
+            "Chinese": "放射劑量測試員"
+        },
+        {
+            "English": "Doubling time",
+            "Chinese": "加倍時間"
+        },
+        {
+            "English": "Drug resistan",
+            "Chinese": "抗藥性"
+        },
+        {
+            "English": "Duct ectasia",
+            "Chinese": "導管擴張"
+        },
+        {
+            "English": "Ductal carcinoma in situ (DCIS)",
+            "Chinese": "導管原位癌"
+        },
+        {
+            "English": "Dysphagia",
+            "Chinese": "吞咽困難"
+        },
+        {
+            "English": "Dysplasia",
+            "Chinese": "組織發展異常"
+        },
+        {
+            "English": "Edema",
+            "Chinese": "浮腫"
+        },
+        {
+            "English": "Emesis",
+            "Chinese": "嘔吐"
+        },
+        {
+            "English": "Endocrine glands",
+            "Chinese": "內分泌腺"
+        },
+        {
+            "English": "Endocrine therapy",
+            "Chinese": "內分泌治療"
+        },
+        {
+            "English": "Endocrinologist ",
+            "Chinese": "內分泌醫師"
+        },
+        {
+            "English": "Endometrium ",
+            "Chinese": "子宮內膜"
+        },
+        {
+            "English": "Endoscopy ",
+            "Chinese": "內腔鏡檢查法 "
+        },
+        {
+            "English": "Enzyme",
+            "Chinese": "酵素"
+        },
+        {
+            "English": "Epidemiology",
+            "Chinese": "流行病學"
+        },
+        {
+            "English": "Esophageal",
+            "Chinese": "食道的"
+        },
+        {
+            "English": "Estrogen ",
+            "Chinese": "雌激素"
+        },
+        {
+            "English": "Estrogen receptor assay ",
+            "Chinese": "雌激素受體測驗"
+        },
+        {
+            "English": "Etiology ",
+            "Chinese": "病因學"
+        },
+        {
+            "English": "False negative ",
+            "Chinese": "假陰性"
+        },
+        {
+            "English": "False positive ",
+            "Chinese": "假陽性"
+        },
+        {
+            "English": "Familial adenomatous polyposis ",
+            "Chinese": "家族性腺瘤息肉症"
+        },
+        {
+            "English": "Fascia",
+            "Chinese": "筋膜"
+        },
+        {
+            "English": "Fibrocystic changes",
+            "Chinese": "纖維與囊腫性變化"
+        },
+        {
+            "English": "Fibrosis",
+            "Chinese": "纖維化"
+        },
+        {
+            "English": "Fine needle aspiration",
+            "Chinese": "細針抽吸術"
+        },
+        {
+            "English": "Five-year survival rate",
+            "Chinese": "五年生存率"
+        },
+        {
+            "English": "Flow cytometry ",
+            "Chinese": "流動細胞計數法"
+        },
+        {
+            "English": "Frozen section ",
+            "Chinese": "冷凍切片"
+        },
+        {
+            "English": "Gene ",
+            "Chinese": "基因"
+        },
+        {
+            "English": "Genetic counseling ",
+            "Chinese": "遺傳輔導"
+        },
+        {
+            "English": "Genetics counselor ",
+            "Chinese": "遺傳輔導員"
+        },
+        {
+            "English": "Genetic testing",
+            "Chinese": "遺傳檢測"
+        },
+        {
+            "English": "Gene therapy",
+            "Chinese": "基因治療"
+        },
+        {
+            "English": "Genome",
+            "Chinese": "基因組"
+        },
+        {
+            "English": "Germ cell",
+            "Chinese": "胚芽細胞"
+        },
+        {
+            "English": "Glands",
+            "Chinese": "腺"
+        },
+        {
+            "English": "Grade",
+            "Chinese": "分級"
+        },
+        {
+            "English": "Graft versus host disease (GVHD)",
+            "Chinese": "宿主抗移植物疾病"
+        },
+        {
+            "English": "Growth factors",
+            "Chinese": "生長因素，生長激素"
+        },
+        {
+            "English": "Gynecologic oncologist",
+            "Chinese": "婦科腫瘤醫師"
+        },
+        {
+            "English": "Gynecologist",
+            "Chinese": "婦科醫師"
+        },
+        {
+            "English": "Hematologist",
+            "Chinese": "血液病醫師"
+        },
+        {
+            "English": "Hematoma",
+            "Chinese": "血腫"
+        },
+        {
+            "English": "Hereditary cancer syndrome",
+            "Chinese": "遺傳性癌綜合症"
+        },
+        {
+            "English": "High risk",
+            "Chinese": "高危險率"
+        },
+        {
+            "English": "Hodgkin disease",
+            "Chinese": "霍奇金氏病"
+        },
+        {
+            "English": "Home health nurse",
+            "Chinese": "家庭護士"
+        },
+        {
+            "English": "Hormone",
+            "Chinese": "荷爾蒙，激素"
+        },
+        {
+            "English": "Hormone receptor ",
+            "Chinese": "荷爾蒙受體"
+        },
+        {
+            "English": "Hormone receptor assay ",
+            "Chinese": "荷爾蒙受體測驗"
+        },
+        {
+            "English": "Hormone replacement therapy ",
+            "Chinese": "荷爾蒙取代療法"
+        },
+        {
+            "English": "Hormone therapy ",
+            "Chinese": "荷爾蒙療法"
+        },
+        {
+            "English": "Hospice ",
+            "Chinese": "安寧療護"
+        },
+        {
+            "English": "Hyperalimentation ",
+            "Chinese": "高營養療法"
+        },
+        {
+            "English": "Hyperplasia ",
+            "Chinese": "增殖"
+        },
+        {
+            "English": "Hyperthermia therapy ",
+            "Chinese": "發熱療法"
+        },
+        {
+            "English": "Hysterectomy ",
+            "Chinese": "子宮切除術"
+        },
+        {
+            "English": "Imaging studies ",
+            "Chinese": "影像掃描檢查"
+        },
+        {
+            "English": "Immune system ",
+            "Chinese": "免疫系統"
+        },
+        {
+            "English": "Immunology ",
+            "Chinese": "免疫學"
+        },
+        {
+            "English": "Immunosuppression ",
+            "Chinese": "免疫抑制"
+        },
+        {
+            "English": "Immunotherapy ",
+            "Chinese": "免疫療法"
+        },
+        {
+            "English": "Implant ",
+            "Chinese": "植入物"
+        },
+        {
+            "English": "Incidence ",
+            "Chinese": "發生率"
+        },
+        {
+            "English": "Informed consent ",
+            "Chinese": "書面同意書"
+        },
+        {
+            "English": "Infraclavicular nodes ",
+            "Chinese": "鎖骨下淋巴結"
+        },
+        {
+            "English": "In situ ",
+            "Chinese": "原位"
+        },
+        {
+            "English": "Interferon ",
+            "Chinese": "干擾素"
+        },
+        {
+            "English": "Interleukins",
+            "Chinese": "白細胞介素"
+        },
+        {
+            "English": "Interstitial radiation therapy ",
+            "Chinese": "組織間質放射性治療"
+        },
+        {
+            "English": "Intravenous pyelogram (IVP) ",
+            "Chinese": "經由靜脈注射造影劑的腎盂 x 光顯像"
+        },
+        {
+            "English": "Iinvasive cancer ",
+            "Chinese": "侵入性癌症"
+        },
+        {
+            "English": "Jaundice ",
+            "Chinese": "黃疸"
+        },
+        {
+            "English": "LHRH (leuteinizing hormone releasing hormone)",
+            "Chinese": "黃體刺激荷爾蒙"
+        },
+        {
+            "English": "LHRH analogs",
+            "Chinese": "促黃體激素類似物"
+        },
+        {
+            "English": "Laryngectomy",
+            "Chinese": "喉切除術"
+        },
+        {
+            "English": "Lesion",
+            "Chinese": "損害，病害"
+        },
+        {
+            "English": "Lethargy",
+            "Chinese": "倦怠感，嗜眠"
+        },
+        {
+            "English": "Leukemia",
+            "Chinese": "白血病，血癌"
+        },
+        {
+            "English": "Leukocytosis",
+            "Chinese": "白細胞(血球)增多症"
+        },
+        {
+            "English": "Leukopenia",
+            "Chinese": "白細胞(血球)減少症"
+        },
+        {
+            "English": "Leukoplakia",
+            "Chinese": "白斑病"
+        },
+        {
+            "English": "Linear accelerator",
+            "Chinese": "線形加速器"
+        },
+        {
+            "English": "Localized cancer",
+            "Chinese": "局部癌"
+        },
+        {
+            "English": "Lump",
+            "Chinese": "腫瘤"
+        },
+        {
+            "English": "Lumpectomy",
+            "Chinese": "腫瘤切除術"
+        },
+        {
+            "English": "Lymphatic system",
+            "Chinese": "淋巴系統"
+        },
+        {
+            "English": "Lymph",
+            "Chinese": "淋巴"
+        },
+        {
+            "English": "Lymph nodes",
+            "Chinese": "淋巴結"
+        },
+        {
+            "English": "Lymphocytes",
+            "Chinese": "淋巴細胞"
+        },
+        {
+            "English": "Lymphedema",
+            "Chinese": "淋巴水腫"
+        },
+        {
+            "English": "Lymphocytosis",
+            "Chinese": "淋巴細胞增多症"
+        },
+        {
+            "English": "Lymphokines",
+            "Chinese": "淋巴激活素"
+        },
+        {
+            "English": "Lymphokinesis",
+            "Chinese": "淋巴液循環"
+        },
+        {
+            "English": "Lymphoma ",
+            "Chinese": "淋巴癌"
+        },
+        {
+            "English": "Macrophage ",
+            "Chinese": "巨噬細胞"
+        },
+        {
+            "English": "Magnetic Resonance Imaging (MRI ) ",
+            "Chinese": "核磁共振影像掃描"
+        },
+        {
+            "English": "Malignant tumor ",
+            "Chinese": "惡性腫瘤"
+        },
+        {
+            "English": "Margin ",
+            "Chinese": "邊緣"
+        },
+        {
+            "English": "Mediastinoscopy ",
+            "Chinese": "縱膈腔內視鏡檢查"
+        },
+        {
+            "English": "Medical oncologist ",
+            "Chinese": "癌專科內科醫師"
+        },
+        {
+            "English": "Melanoma ",
+            "Chinese": "黑色素瘤"
+        },
+        {
+            "English": "Messenger RNA ",
+            "Chinese": "傳信息核糖核酸"
+        },
+        {
+            "English": "Metastasis ",
+            "Chinese": "轉移"
+        },
+        {
+            "English": "Micrometastasis ",
+            "Chinese": "(非肉眼可見的)顯微轉移"
+        },
+        {
+            "English": "Monoclonal antibodies ",
+            "Chinese": "單株抗體"
+        },
+        {
+            "English": "Morbidity ",
+            "Chinese": "罹病率"
+        },
+        {
+            "English": "Mortality ",
+            "Chinese": "死亡率"
+        },
+        {
+            "English": "Mucinous carcinoma ",
+            "Chinese": "粘液(腺)癌"
+        },
+        {
+            "English": "Mucositis ",
+            "Chinese": "口腔癌"
+        },
+        {
+            "English": "Multidrug resistance (MDR) ",
+            "Chinese": "對多種藥產生抗藥性"
+        },
+        {
+            "English": "Multiple myeloma ",
+            "Chinese": "多發性骨髓瘤"
+        },
+        {
+            "English": "Mutation ",
+            "Chinese": "突變"
+        },
+        {
+            "English": "Nasopharyngeal cancer ",
+            "Chinese": "鼻咽癌"
+        },
+        {
+            "English": "Needle aspiration ",
+            "Chinese": "針頭抽吸（取樣）"
+        },
+        {
+            "English": "Needle biopsy ",
+            "Chinese": "刺採樣活組織檢查"
+        },
+        {
+            "English": "Needle localization",
+            "Chinese": "針頭定位"
+        },
+        {
+            "English": "Neonatologist",
+            "Chinese": "新生兒專科醫師"
+        },
+        {
+            "English": "Neoplasm",
+            "Chinese": "腫瘤(新生物)"
+        },
+        {
+            "English": "Nephrologist",
+            "Chinese": "腎臟病學家"
+        },
+        {
+            "English": "Neurosurgeon",
+            "Chinese": "神經外科醫師"
+        },
+        {
+            "English": "Neutrophils",
+            "Chinese": "嗜中性白細胞"
+        },
+        {
+            "English": "Nodal status ",
+            "Chinese": "淋巴腺狀態"
+        },
+        {
+            "English": "Nodule ",
+            "Chinese": "淋巴腺"
+        },
+        {
+            "English": "Non-Hodgkin lymphoma ",
+            "Chinese": "非霍奇金氏淋巴瘤"
+        },
+        {
+            "English": "Nuclear medicine scan ",
+            "Chinese": "核醫學掃描"
+        },
+        {
+            "English": "Nucleus ",
+            "Chinese": "細胞核"
+        },
+        {
+            "English": "Nurse practitioner ",
+            "Chinese": "執業護士"
+        },
+        {
+            "English": "Occupational therapist ",
+            "Chinese": "職(功)能治療師"
+        },
+        {
+            "English": "Oncogenes ",
+            "Chinese": "致癌基因"
+        },
+        {
+            "English": "Oncologist ",
+            "Chinese": "腫瘤醫師"
+        },
+        {
+            "English": "Oncology ",
+            "Chinese": "腫瘤學"
+        },
+        {
+            "English": "Oncology clinical nurse specialist ",
+            "Chinese": "腫瘤臨床專業護士"
+        },
+        {
+            "English": "Oncology social worker ",
+            "Chinese": "腫瘤社會服務員 "
+        },
+        {
+            "English": "Oophorectomy ",
+            "Chinese": "卵巢摘除術"
+        },
+        {
+            "English": "Ophthalmologist ",
+            "Chinese": "眼科醫師"
+        },
+        {
+            "English": "Oral and maxillofacial surgeon",
+            "Chinese": "口腔、上顎顏面外科醫師"
+        },
+        {
+            "English": "Orthopedic surgeon",
+            "Chinese": "整形外科醫師"
+        },
+        {
+            "English": "Osteoporosis",
+            "Chinese": "骨質疏鬆"
+        },
+        {
+            "English": "Ostomy",
+            "Chinese": "造口術"
+        },
+        {
+            "English": "Otolaryngologist",
+            "Chinese": "耳鼻喉科醫師"
+        },
+        {
+            "English": "Ovary",
+            "Chinese": "卵巢"
+        },
+        {
+            "English": "Ovarian cancer",
+            "Chinese": "卵巢癌"
+        },
+        {
+            "English": "Pain specialist",
+            "Chinese": "疼痛學家"
+        },
+        {
+            "English": "Palliative treatment",
+            "Chinese": "姑息(緩和)療法"
+        },
+        {
+            "English": "Palpation",
+            "Chinese": "觸診"
+        },
+        {
+            "English": "Pancreatectomy",
+            "Chinese": "胰腺摘除術"
+        },
+        {
+            "English": "Pap test",
+            "Chinese": "子宮頸抹片檢查"
+        },
+        {
+            "English": "Pathologist",
+            "Chinese": "病理學家"
+        },
+        {
+            "English": "Pediatrician",
+            "Chinese": "小兒科醫師"
+        },
+        {
+            "English": "Pediatric oncologist",
+            "Chinese": "小兒科腫瘤學家"
+        },
+        {
+            "English": "Permanent section ",
+            "Chinese": "永久性細胞切片準備法"
+        },
+        {
+            "English": "Pelvic examination ",
+            "Chinese": "骨盆檢查"
+        },
+        {
+            "English": "Pelvic exenteration ",
+            "Chinese": "骨盆內臟清掃術"
+        },
+        {
+            "English": "Photodynamic therapy (PDT) ",
+            "Chinese": "光能療法"
+        },
+        {
+            "English": "Physical therapist",
+            "Chinese": "物理治療師"
+        },
+        {
+            "English": "Placebo",
+            "Chinese": "安慰劑"
+        },
+        {
+            "English": "Plastic and reconstructive surgeon",
+            "Chinese": "整形外科醫師"
+        },
+        {
+            "English": "Platelet",
+            "Chinese": "血小板"
+        },
+        {
+            "English": "Pleura",
+            "Chinese": "胸膜"
+        },
+        {
+            "English": "Positron emission tomography (PET scan) ",
+            "Chinese": "陽電子斷層掃描術"
+        },
+        {
+            "English": "Pre-cancerous ",
+            "Chinese": "變腫瘤前的"
+        },
+        {
+            "English": "Predisposition ",
+            "Chinese": "體質傾向"
+        },
+        {
+            "English": "Pre-malignant ",
+            "Chinese": "變惡性腫瘤前的"
+        },
+        {
+            "English": "Prevalence ",
+            "Chinese": "傾向"
+        },
+        {
+            "English": "Prevention ",
+            "Chinese": "預防"
+        },
+        {
+            "English": "Primary care physician ",
+            "Chinese": "家庭醫師"
+        },
+        {
+            "English": "Primary site ",
+            "Chinese": "原發部位"
+        },
+        {
+            "English": "Prognosis ",
+            "Chinese": "預後"
+        },
+        {
+            "English": "Prosthesis ",
+            "Chinese": "人工彌補物，義乳"
+        },
+        {
+            "English": "Protein ",
+            "Chinese": "蛋白質"
+        },
+        {
+            "English": "Protocol ",
+            "Chinese": "醫療方案"
+        },
+        {
+            "English": "Psychiatrist ",
+            "Chinese": "精神病專科醫師"
+        },
+        {
+            "English": "Psychologist ",
+            "Chinese": "心理學家"
+        },
+        {
+            "English": "Psychosocial ",
+            "Chinese": "心理社會學的"
+        },
+        {
+            "English": "Radiation oncologist ",
+            "Chinese": "放射治療腫瘤醫師"
+        },
+        {
+            "English": "Radiation technologist ",
+            "Chinese": "放射科技師"
+        },
+        {
+            "English": "Radiation therapist ",
+            "Chinese": "放射治療師"
+        },
+        {
+            "English": "Radiation therapy ",
+            "Chinese": "放射性治療"
+        },
+        {
+            "English": "Radioactive implant ",
+            "Chinese": "放射性植入物"
+        },
+        {
+            "English": "Radioisotope ",
+            "Chinese": "放射性同位素 "
+        },
+        {
+            "English": "Radiologist ",
+            "Chinese": "放射科醫師"
+        },
+        {
+            "English": "Radionuclide bone scan ",
+            "Chinese": "放射性骨掃描"
+        },
+        {
+            "English": "Recurrence ",
+            "Chinese": "復發"
+        },
+        {
+            "English": "Red blood cells ",
+            "Chinese": "紅血球，紅細胞"
+        },
+        {
+            "English": "Regimen ",
+            "Chinese": "治療計劃"
+        },
+        {
+            "English": "Regional involvement ",
+            "Chinese": "局部侵犯"
+        },
+        {
+            "English": "Rehabilitation ",
+            "Chinese": "復健"
+        },
+        {
+            "English": "Relapse ",
+            "Chinese": "復發"
+        },
+        {
+            "English": "Remission ",
+            "Chinese": "緩解，減輕"
+        },
+        {
+            "English": "Rescue treatment ",
+            "Chinese": "援救治療"
+        },
+        {
+            "English": "Resection ",
+            "Chinese": "切除"
+        },
+        {
+            "English": "Respiratory therapist ",
+            "Chinese": "呼吸治療師"
+        },
+        {
+            "English": "Retinoid ",
+            "Chinese": "視網膜狀的"
+        },
+        {
+            "English": "Retinoids ",
+            "Chinese": "維他命 A 類似物"
+        },
+        {
+            "English": "Ribonucleic acid (RNA) ",
+            "Chinese": "核糖核酸"
+        },
+        {
+            "English": "Risk factor ",
+            "Chinese": "危險因素"
+        },
+        {
+            "English": "Sarcoma ",
+            "Chinese": "肉瘤"
+        },
+        {
+            "English": "Scan ",
+            "Chinese": "掃描"
+        },
+        {
+            "English": "Scintillation camera ",
+            "Chinese": "閃爍攝影機Screening "
+        },
+        {
+            "English": "Screening",
+            "Chinese": "篩檢"
+        },
+        {
+            "English": "Secondary tumor",
+            "Chinese": "繼發瘤"
+        },
+        {
+            "English": "Sexual therapist",
+            "Chinese": "性功能治療師"
+        },
+        {
+            "English": "Side effects",
+            "Chinese": "副作用"
+        },
+        {
+            "English": "Social worker",
+            "Chinese": "社工"
+        },
+        {
+            "English": "Speech therapist ",
+            "Chinese": "語言治療師"
+        },
+        {
+            "English": "S-phase fraction ",
+            "Chinese": "染色體復製比率"
+        },
+        {
+            "English": "Spinal tap ",
+            "Chinese": "抽骨髓"
+        },
+        {
+            "English": "Sputum cytology ",
+            "Chinese": "痰細胞學"
+        },
+        {
+            "English": "Squamous cell carcinoma ",
+            "Chinese": "鱗狀細胞癌"
+        },
+        {
+            "English": "Staging ",
+            "Chinese": "癌症分期"
+        },
+        {
+            "English": "Standard therapy ",
+            "Chinese": "標準療法"
+        },
+        {
+            "English": "Stem cell and stem cell transplant ",
+            "Chinese": "幹細胞和幹細胞移植"
+        },
+        {
+            "English": "Stenosis ",
+            "Chinese": "狹窄"
+        },
+        {
+            "English": "Stereotactic needle biopsy ",
+            "Chinese": "實體﹝三維定位﹞針頭抽樣檢查"
+        },
+        {
+            "English": "Stereotactic radiosurgery ",
+            "Chinese": "實體﹝三維定位﹞放射性治療"
+        },
+        {
+            "English": "Stoma ",
+            "Chinese": "造口"
+        },
+        {
+            "English": "Stomatitis ",
+            "Chinese": "口腔炎"
+        },
+        {
+            "English": "Supraclavicular lymph nodes ",
+            "Chinese": "鎖骨上淋巴結"
+        },
+        {
+            "English": "Surgeon ",
+            "Chinese": "外科醫師"
+        },
+        {
+            "English": "Surgical biopsy ",
+            "Chinese": "切片檢查"
+        },
+        {
+            "English": "Surgical oncologist ",
+            "Chinese": "外科腫瘤醫師"
+        },
+        {
+            "English": "Survival rate ",
+            "Chinese": "生存率"
+        },
+        {
+            "English": "Synchronous ",
+            "Chinese": "同時的"
+        },
+        {
+            "English": "Synergistic ",
+            "Chinese": "增效作用"
+        },
+        {
+            "English": "Systemic disease ",
+            "Chinese": "全身性疾病"
+        },
+        {
+            "English": "Systemic therapy ",
+            "Chinese": "全身性治療"
+        },
+        {
+            "English": "Taxol ",
+            "Chinese": "﹝抗癌藥名﹞"
+        },
+        {
+            "English": "Testicles ",
+            "Chinese": "睪丸"
+        },
+        {
+            "English": "Testosterone ",
+            "Chinese": "睪丸酮"
+        },
+        {
+            "English": "Therapy ",
+            "Chinese": "治療法"
+        },
+        {
+            "English": "Thoracic surgeon ",
+            "Chinese": "胸腔外科醫師"
+        },
+        {
+            "English": "Thrombocytopenia ",
+            "Chinese": "血小板減少症"
+        },
+        {
+            "English": "Tissue ",
+            "Chinese": "組織"
+        },
+        {
+            "English": "T-lymphocytes or T-cells ",
+            "Chinese": "T 淋巴細胞"
+        },
+        {
+            "English": "Trachea ",
+            "Chinese": "氣管"
+        },
+        {
+            "English": "Tracheostomy ",
+            "Chinese": "氣管造口術"
+        },
+        {
+            "English": "Transverse rectus abdominus muscle flap procedure",
+            "Chinese": "移植橫腹直肌皮瓣手術"
+        },
+        {
+            "English": "Tumor",
+            "Chinese": "腫瘤"
+        },
+        {
+            "English": "Tumor markers",
+            "Chinese": "腫瘤標記物"
+        },
+        {
+            "English": "Tumor necrosis factor (TNF)",
+            "Chinese": "腫瘤致死因素"
+        },
+        {
+            "English": "Tumor suppressor genes",
+            "Chinese": "腫瘤抑制基因"
+        },
+        {
+            "English": "Ultrasound",
+            "Chinese": "超音波"
+        },
+        {
+            "English": "Umbilical cord blood transplant",
+            "Chinese": "臍帶血移植"
+        },
+        {
+            "English": "Unilateral",
+            "Chinese": "單側的"
+        },
+        {
+            "English": "Unproven therapy ",
+            "Chinese": "未經證明的療法"
+        },
+        {
+            "English": "Ureter ",
+            "Chinese": "輸尿管"
+        },
+        {
+            "English": "Urethra ",
+            "Chinese": "尿道 "
+        },
+        {
+            "English": "Urine cytology ",
+            "Chinese": "尿細胞學"
+        },
+        {
+            "English": "Urologist ",
+            "Chinese": "泌尿科醫師"
+        },
+        {
+            "English": "Urostomy ",
+            "Chinese": "尿道造口術"
+        },
+        {
+            "English": "Uterus ",
+            "Chinese": "子宮"
+        },
+        {
+            "English": "Vaccine ",
+            "Chinese": "疫苗"
+        },
+        {
+            "English": "Vagina ",
+            "Chinese": "陰道"
+        },
+        {
+            "English": "Virus ",
+            "Chinese": "過濾性病毒"
+        },
+        {
+            "English": "White blood cells ",
+            "Chinese": "白血球，白細胞"
+        },
+        {
+            "English": "Wire localization ",
+            "Chinese": "針頭引導"
+        },
+        {
+            "English": "X - rays",
+            "Chinese": "X - 光"
+        }
+    ]
+}
