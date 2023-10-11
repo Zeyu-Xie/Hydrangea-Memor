@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FF5D3F9A2AD54C6F00B549AD /* WordListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D3F992AD54C6F00B549AD /* WordListView.swift */; };
+		FF5D3F9A2AD54C6F00B549AD /* List_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D3F992AD54C6F00B549AD /* List_View.swift */; };
 		FF5D3F9D2AD5600600B549AD /* Page_About.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D3F9C2AD5600600B549AD /* Page_About.swift */; };
 		FF5D3F9F2AD5609E00B549AD /* Page_Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D3F9E2AD5609E00B549AD /* Page_Words.swift */; };
 		FF7D66B92AD6372600723AD3 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7D66B82AD6372600723AD3 /* Word.swift */; };
 		FF7D66BB2AD639AA00723AD3 /* Page_Develop.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7D66BA2AD639AA00723AD3 /* Page_Develop.swift */; };
+		FF82F2B52AD642DA006F6A47 /* Words_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF82F2B42AD642DA006F6A47 /* Words_View.swift */; };
+		FF82F2B72AD645E1006F6A47 /* Card_View.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF82F2B62AD645E1006F6A47 /* Card_View.swift */; };
+		FF82F2B92AD64900006F6A47 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF82F2B82AD64900006F6A47 /* Card.swift */; };
 		FFB04C192AD4E3EB00EE6C4F /* Hydrangea_MemorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB04C182AD4E3EB00EE6C4F /* Hydrangea_MemorApp.swift */; };
 		FFB04C1B2AD4E3EB00EE6C4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB04C1A2AD4E3EB00EE6C4F /* ContentView.swift */; };
 		FFB04C1D2AD4E3EC00EE6C4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFB04C1C2AD4E3EC00EE6C4F /* Assets.xcassets */; };
@@ -40,11 +43,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FF5D3F992AD54C6F00B549AD /* WordListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListView.swift; sourceTree = "<group>"; };
+		FF5D3F992AD54C6F00B549AD /* List_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = List_View.swift; sourceTree = "<group>"; };
 		FF5D3F9C2AD5600600B549AD /* Page_About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_About.swift; sourceTree = "<group>"; };
 		FF5D3F9E2AD5609E00B549AD /* Page_Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_Words.swift; sourceTree = "<group>"; };
 		FF7D66B82AD6372600723AD3 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 		FF7D66BA2AD639AA00723AD3 /* Page_Develop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_Develop.swift; sourceTree = "<group>"; };
+		FF82F2B42AD642DA006F6A47 /* Words_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Words_View.swift; sourceTree = "<group>"; };
+		FF82F2B62AD645E1006F6A47 /* Card_View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card_View.swift; sourceTree = "<group>"; };
+		FF82F2B82AD64900006F6A47 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		FFB04C152AD4E3EB00EE6C4F /* Hydrangea Memor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hydrangea Memor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB04C182AD4E3EB00EE6C4F /* Hydrangea_MemorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydrangea_MemorApp.swift; sourceTree = "<group>"; };
 		FFB04C1A2AD4E3EB00EE6C4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -87,12 +93,31 @@
 		FF5D3F982AD54C5300B549AD /* components */ = {
 			isa = PBXGroup;
 			children = (
-				FF5D3F992AD54C6F00B549AD /* WordListView.swift */,
+				FF82F2B22AD641A1006F6A47 /* Page_Words */,
 				FF5D3F9C2AD5600600B549AD /* Page_About.swift */,
-				FF5D3F9E2AD5609E00B549AD /* Page_Words.swift */,
 				FF7D66BA2AD639AA00723AD3 /* Page_Develop.swift */,
 			);
 			path = components;
+			sourceTree = "<group>";
+		};
+		FF82F2B22AD641A1006F6A47 /* Page_Words */ = {
+			isa = PBXGroup;
+			children = (
+				FF82F2B32AD642C8006F6A47 /* Words_View */,
+				FF5D3F9E2AD5609E00B549AD /* Page_Words.swift */,
+			);
+			path = Page_Words;
+			sourceTree = "<group>";
+		};
+		FF82F2B32AD642C8006F6A47 /* Words_View */ = {
+			isa = PBXGroup;
+			children = (
+				FF5D3F992AD54C6F00B549AD /* List_View.swift */,
+				FF82F2B62AD645E1006F6A47 /* Card_View.swift */,
+				FF82F2B82AD64900006F6A47 /* Card.swift */,
+				FF82F2B42AD642DA006F6A47 /* Words_View.swift */,
+			);
+			path = Words_View;
 			sourceTree = "<group>";
 		};
 		FFB04C0C2AD4E3EB00EE6C4F = {
@@ -227,7 +252,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					FFB04C142AD4E3EB00EE6C4F = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -295,12 +320,15 @@
 			files = (
 				FF7D66BB2AD639AA00723AD3 /* Page_Develop.swift in Sources */,
 				FF5D3F9D2AD5600600B549AD /* Page_About.swift in Sources */,
+				FF82F2B52AD642DA006F6A47 /* Words_View.swift in Sources */,
 				FF7D66B92AD6372600723AD3 /* Word.swift in Sources */,
-				FF5D3F9A2AD54C6F00B549AD /* WordListView.swift in Sources */,
+				FF5D3F9A2AD54C6F00B549AD /* List_View.swift in Sources */,
 				FF5D3F9F2AD5609E00B549AD /* Page_Words.swift in Sources */,
 				FFB04C1B2AD4E3EB00EE6C4F /* ContentView.swift in Sources */,
 				FFB04C192AD4E3EB00EE6C4F /* Hydrangea_MemorApp.swift in Sources */,
+				FF82F2B72AD645E1006F6A47 /* Card_View.swift in Sources */,
 				FFB04C452AD4E77200EE6C4F /* WordList.swift in Sources */,
+				FF82F2B92AD64900006F6A47 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +369,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -370,9 +399,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -401,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -430,9 +462,11 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -459,6 +493,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Hydrangea Memor/Preview Content\"";
 				DEVELOPMENT_TEAM = ZR59599HJV;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -486,6 +521,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"Hydrangea Memor/Preview Content\"";
 				DEVELOPMENT_TEAM = ZR59599HJV;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -511,6 +547,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = ZR59599HJV;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
@@ -530,6 +567,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = ZR59599HJV;
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
@@ -548,6 +586,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = ZR59599HJV;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
@@ -565,6 +604,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = ZR59599HJV;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;

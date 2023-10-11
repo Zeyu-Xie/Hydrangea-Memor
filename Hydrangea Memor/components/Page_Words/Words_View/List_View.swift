@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct WordListView: View {
+struct List_View: View {
     @State private var source: String
     @State private var wordList: WordList = WordList()
     @State private var number: Int = 0
@@ -16,6 +16,8 @@ struct WordListView: View {
     @State private var showEnglish : Bool = true
     @State private var showPhonetic: Bool = true
     @State private var showChinese : Bool = true
+    
+    @State private var isListView: Bool = true
     
     init() {
         self.source = ""
@@ -62,7 +64,6 @@ struct WordListView: View {
                 }
             }
         }.onAppear {
-            
             getWordList()
         }
     }

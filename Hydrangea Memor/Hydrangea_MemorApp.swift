@@ -14,6 +14,7 @@ struct Hydrangea_MemorApp: App {
             ContentView()
         }.commands{
             SidebarCommands()
+            ToolbarCommands()
         }
     }
 }

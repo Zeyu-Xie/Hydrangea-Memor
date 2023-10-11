@@ -35,7 +35,7 @@ struct ContentView: View {
                 }
                 
                 
-            }.frame(width: 150).listStyle(SidebarListStyle()).padding(.top).padding(.bottom)
+            }.frame(width: 150).listStyle(SidebarListStyle())
         }.ignoresSafeArea()
     }
 }

@@ -16,19 +16,19 @@ struct Page_Words: View {
                 
                 Text("English Words").foregroundColor(.secondary).font(.callout)
                 
-                NavigationLink(destination: WordListView(source: "https://zeyu-xie.github.io/Hydrangea-Memor/data/IELTS_words.json").navigationTitle("IELTS Words")) {
+                NavigationLink(destination: Words_View(source: "https://zeyu-xie.github.io/Hydrangea-Memor/data/IELTS_words.json").navigationTitle("IELTS Words")) {
                     Image(systemName: "i.square").foregroundColor(.teal)
                     Text("IELTS Words")
                 }
                 
-                NavigationLink(destination: WordListView(source: "https://zeyu-xie.github.io/Hydrangea-Memor/data/GRE_words.json").navigationTitle("GRE Words")) {
+                NavigationLink(destination: Words_View(source: "https://zeyu-xie.github.io/Hydrangea-Memor/data/GRE_words.json").navigationTitle("GRE Words")) {
                     Image(systemName: "g.square").foregroundColor(.teal)
                     Text("GRE Words")
                 }
                 
                 Text("Swedish Words").foregroundColor(.secondary).font(.callout).padding(.top)
                 
-                NavigationLink(destination: WordListView(source: "https://zeyu-xie.github.io/Hydrangea-Memor/data/GRE_words.json").navigationTitle("GRE Words")) {
+                NavigationLink(destination: Words_View(source: "https://zeyu-xie.github.io/Hydrangea-Memor/data/GRE_words.json").navigationTitle("GRE Words")) {
                     Image(systemName: "g.square").foregroundColor(.teal)
                     Text("GRE Words")
                 }
