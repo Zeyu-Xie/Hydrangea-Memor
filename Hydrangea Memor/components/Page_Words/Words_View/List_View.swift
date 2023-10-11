@@ -13,11 +13,9 @@ struct List_View: View {
     @State private var wordList: WordList = WordList()
     @State private var number: Int = 0
     
-    @State private var showEnglish : Bool = true
-    @State private var showPhonetic: Bool = true
-    @State private var showChinese : Bool = true
-    
     @State private var isListView: Bool = true
+    
+    @State private var selectedOption: Int = 1
     
     init() {
         self.source = ""
@@ -30,17 +28,14 @@ struct List_View: View {
     var body: some View {
         HStack {
             
-            Button("English") {
-                showEnglish = !showEnglish
-            }.frame(width: 200, alignment: .leading)
+            Picker("Switch Display Mode", selection: $selectedOption) {
+                Text("English").tag(0)
+                Text("All").tag(1)
+                Text("Chinese").tag(2)
+            }
+            .pickerStyle(SegmentedPickerStyle()).frame(width: 400)
             
-            Button("Phonetic") {
-                showPhonetic = !showPhonetic
-            }.frame(width: 200, alignment: .leading)
-            
-            Button("Chinese") {
-                showChinese = !showChinese
-            }.frame(width: 200, alignment: .leading)
+            Spacer()
             
         }.padding()
         
@@ -51,13 +46,13 @@ struct List_View: View {
             LazyVStack {
                 ForEach(0..<number, id: \.self) { i in
                     HStack {
-                        Text(wordList.items[i].English != nil && showEnglish ? wordList.items[i].English! : "").frame(width: 200, alignment: .leading)
+                        Text(selectedOption != 0 ? wordList.items[i].English! : "").frame(width: 200, alignment: .leading)
                         
                         
-                        Text(wordList.items[i].Phonetic != nil && showPhonetic ? wordList.items[i].Phonetic! : "").frame(width: 200, alignment: .leading)
+                        Text(wordList.items[i].Phonetic!).frame(width: 200, alignment: .leading)
                         
                         
-                        Text(wordList.items[i].Chinese != nil && showChinese ? wordList.items[i].Chinese! : "").frame(width: 200, alignment: .leading)
+                        Text(selectedOption != 2 ? wordList.items[i].Chinese! : "").frame(width: 200, alignment: .leading)
                     }.padding().onTapGesture {
                         NSSpeechSynthesizer().startSpeaking(wordList.items[i].English!)
                     }

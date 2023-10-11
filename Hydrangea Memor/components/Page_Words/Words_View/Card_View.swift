@@ -7,19 +7,20 @@
 
 import Foundation
 import SwiftUI
+import Combine
 
 struct Card_View: View {
     @State private var source: String
     @State private var wordList: WordList = WordList()
     @State private var number: Int = 0
     
-    @State private var showEnglish : Bool = true
-    @State private var showPhonetic: Bool = true
-    @State private var showChinese : Bool = true
-    
     @State private var isListView: Bool = true
     
     @State private var position : Int = 0
+    
+    @State private var numericInput: String = ""
+    
+    @State private var selectedOption : Int = 1
     
     init() {
         self.source = ""
@@ -32,48 +33,66 @@ struct Card_View: View {
     var body: some View {
         HStack {
             
-            Button("English") {
-                showEnglish = !showEnglish
-            }.frame(width: 200, alignment: .leading)
+            Picker("Switch Display Mode", selection: $selectedOption) {
+                Text("English").tag(0)
+                Text("All").tag(1)
+                Text("Chinese").tag(2)
+            }
+            .pickerStyle(SegmentedPickerStyle()).frame(width: 400)
             
-            Button("Phonetic") {
-                showPhonetic = !showPhonetic
-            }.frame(width: 200, alignment: .leading)
-            
-            Button("Chinese") {
-                showChinese = !showChinese
-            }.frame(width: 200, alignment: .leading)
+            Spacer()
             
         }.padding()
         
         Divider()
         
         Spacer()
+        
+        LazyVStack {
             
-            LazyVStack {
+            if(position < number) {
+                Card(cardTitle: selectedOption != 0 ? wordList.items[position].English! : "", cardCallOut: wordList.items[position].Phonetic!, cardContent: selectedOption != 2 ? wordList.items[position].Chinese! : "").padding()
+            }
+            HStack {
                 
-                if(position < number) {
-                    Card(cardTitle: showEnglish ? wordList.items[position].English! : "", cardCallOut: showPhonetic ?  wordList.items[position].Phonetic! : "", cardContent: showChinese ? wordList.items[position].Chinese! : "").padding()
+                
+                
+                Button(action: {
+                    if(position > 0) {
+                        position -= 1
+                    }
+                }) {
+                    Text("Previous").frame(width: 60)
                 }
-                HStack {
-                    Button(action: {
-                        if(position > 0) {
-                            position -= 1
-                        }
-                    }) {
-                        Text("Previous").frame(width: 60)
+                Button(action: {
+                    if(position < number-1) {
+                        position += 1
                     }
-                    Button(action: {
-                        if(position < number-1) {
-                            position += 1
-                        }
-                    }) {
-                        Text("Next").frame(width: 60)
-                    }
-                }.padding(.vertical)
+                }) {
+                    Text("Next").frame(width: 60)
+                }
+            }.padding(.vertical)
+            
+            HStack {
                 Text("\(String(position + 1)) / \(String(number))")
-                
-                
+                TextField("Jump to", text: $numericInput).textFieldStyle(PlainTextFieldStyle())
+                    .onReceive(Just(numericInput)) { newInput in
+                        let filtered = newInput.filter { "0123456789".contains($0) }
+                        if filtered != newInput {
+                            self.numericInput = filtered
+                        }
+                    }.frame(width: 50).padding(.horizontal)
+                Button("Convey") {
+                    let newPosition = Int(numericInput) ?? position
+                    if( 1 <= newPosition && newPosition <= number) {
+                        position = newPosition - 1
+                    }
+                    numericInput = ""
+                }
+            }
+            
+            
+            
         }.onAppear {
             getWordList()
         }
@@ -94,7 +113,6 @@ struct Card_View: View {
                         } catch {
                             print("ERROR: \(error)")
                         }
-                        
                     }
                 }
                 

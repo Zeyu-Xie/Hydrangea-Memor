@@ -1,34 +1,47 @@
 //
-//  Page_Develop.swift
+//  About.swift
 //  Hydrangea Memor
 //
-//  Created by 谢泽钰 on 2023/10/11.
+//  Created by 谢泽钰 on 2023/10/10.
 //
 
-import Foundation
 import SwiftUI
 
 struct Page_Develop: View {
     var body: some View {
-        
-        
         VStack(alignment: .leading, spacing: 20) {
-            Text("Hydrangea Memor Development Info").font(.title).fontWeight(.bold).foregroundColor(.blue)
             
-            Section(header: Text("GitHub Repository")) {
-                Text("Explore the source code on GitHub:").font(.callout).foregroundColor(.secondary)
-                Link("Hydrangea Memor on GitHub", destination: URL(string: "https://github.com/zeyu-xie/Hydrangea-Memor/tree/MacOS")!)
+            Text("Develop Page of Hydrangea Memor").font(.title).fontWeight(.bold).foregroundColor(.blue)
+            
+            Text("This page showcases the app's GitHub repos and dev resources. Explore code, find docs, and join the community.").font(.body).foregroundColor(.secondary)
+            
+            Link(destination: URL(string: "#")!) {
+                Image(systemName: "house")
+                Text("Repository")
+            }.font(.headline).fontWeight(.bold).foregroundColor(.blue)
+            
+            VStack(alignment: .leading, spacing: 10) {
+                Link(destination: URL(string: "https://github.com/zeyu-xie/Hydrangea-Memor/tree/main")!) {
+                    Text("🎒 Hydrangea Memor — Main Branch").foregroundColor(.teal)
+                }
+                
+                Text("Notice that this branch keeps the vacabulary json file.")
+                
+                Link(destination: URL(string: "https://github.com/zeyu-xie/Hydrangea-Memor/tree/MacOS")!) {
+                    Text("🍃 Hydrangea Memor — MacOS Branch").foregroundColor(.teal)
+                }
+                
+                Text("This branch keeps the source code of this MacOS app.")
+                
             }
             
-            Section(header: Text("Attributions")) {
-                Text("Special thanks to contributors and libraries used in this project.").font(.callout).foregroundColor(.secondary)
-            }
+            Link(destination: URL(string: "https://github.com/zeyu-xie")!) {
+                Image(systemName: "graduationcap")
+                Text("Developer")
+            }.font(.headline).fontWeight(.bold).foregroundColor(.blue)
             
-            Section(header: Text("Contact Developer")) {
-                Text("For inquiries or feedback, reach out to the developer:").font(.callout).foregroundColor(.secondary)
-                Link("xie.zeyu20@gmail.com", destination: URL(string: "xie.zeyu20@gmail.com")!)
-            }
-        }.padding().frame(alignment: .leading)
-        
+            Text("Acan Xie, 21, from Tsinghua University. An ordinary student in favor of softwares.").font(.body).foregroundColor(.secondary)
+            
+        }.padding()
     }
 }

@@ -15,7 +15,7 @@ struct ContentView: View {
         NavigationView{
             List {
                 
-                Text("Hydrangea_Memor").font(.callout).foregroundColor(.secondary)
+                Text("Hydrangea Memor").font(.callout).foregroundColor(.secondary)
                 
                 NavigationLink(destination: Page_Words().navigationTitle("Words")) {
                     Image(systemName: "list.bullet.clipboard").foregroundColor(.blue)
