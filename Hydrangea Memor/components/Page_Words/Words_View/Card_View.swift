@@ -22,12 +22,16 @@ struct Card_View: View {
     
     @State private var selectedOption : Int = 1
     
+    @State private var language : String
+    
     init() {
         self.source = ""
+        self.language = "English"
     }
     
-    init(source: String) {
+    init(source: String, language: String) {
         self.source = source
+        self.language = language
     }
     
     var body: some View {

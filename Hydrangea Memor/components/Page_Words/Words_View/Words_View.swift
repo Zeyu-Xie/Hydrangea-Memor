@@ -12,18 +12,20 @@ struct Words_View: View {
     
     @State private var source: String
     @State private var isListView : Bool = true
+    @State private var language: String
     
-    init(source: String) {
+    init(source: String, language: String) {
         self.source = source
+        self.language = language
     }
     
     var body: some View {
         VStack {
             if(isListView) {
-                List_View(source: source)
+                List_View(source: source, language: language)
             }
             else {
-                Card_View(source: source)
+                Card_View(source: source, language: language)
             }
         }.toolbar {
             ToolbarItem {

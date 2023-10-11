@@ -17,19 +17,23 @@ struct List_View: View {
     
     @State private var selectedOption: Int = 1
     
+    @State private var language : String
+    
     init() {
         self.source = ""
+        self.language = "English"
     }
     
-    init(source: String) {
+    init(source: String, language: String) {
         self.source = source
+        self.language = language
     }
     
     var body: some View {
         HStack {
             
             Picker("Switch Display Mode", selection: $selectedOption) {
-                Text("English").tag(0)
+                Text(language).tag(0)
                 Text("All").tag(1)
                 Text("Chinese").tag(2)
             }
@@ -49,7 +53,7 @@ struct List_View: View {
                         Text(selectedOption != 0 ? wordList.items[i].English! : "").frame(width: 200, alignment: .leading)
                         
                         
-                        Text(wordList.items[i].Phonetic!).frame(width: 200, alignment: .leading)
+                        Text(wordList.items[i].Phonetic != nil ? wordList.items[i].Phonetic! : "").frame(width: 200, alignment: .leading)
                         
                         
                         Text(selectedOption != 2 ? wordList.items[i].Chinese! : "").frame(width: 200, alignment: .leading)
