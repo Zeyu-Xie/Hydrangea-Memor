@@ -27,11 +27,19 @@ struct ContentView: View {
                     Text("About")
                 }
                 
-                Text("Others").font(.callout).foregroundColor(.secondary).padding(.top)
+                NavigationLink(destination: VStack(alignment: .leading, spacing: 20) {
+                    Text("Settings Not Here").font(.title).fontWeight(.bold).foregroundColor(.blue)
+                    Text("Please turn to the \(Text("left top corner").foregroundColor(.teal).fontWeight(.bold)) of the screen. Click \"Hydrangea Memor\" - \"Settings\" afterwards.").foregroundStyle(.secondary)
+                }.frame(alignment: .leading).navigationTitle("Settings")) {
+                    Image(systemName: "gear").foregroundColor(.blue)
+                    Text("Settings")
+                }
+                
+                Text("Develop").font(.callout).foregroundColor(.secondary).padding(.top)
                 
                 NavigationLink(destination: Page_Develop().navigationTitle("Develop")) {
                     Image(systemName: "desktopcomputer").foregroundColor(.blue)
-                    Text("Develop")
+                    Text("Info Page")
                 }
                 
                 

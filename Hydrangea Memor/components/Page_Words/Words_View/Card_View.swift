@@ -2,7 +2,7 @@
 //  WordListView.swift
 //  Hydrangea Memor
 //
-//  Created by 谢泽钰 on 2023/10/10.
+//  Created by Acan on 2023/10/10.
 //
 
 import Foundation
