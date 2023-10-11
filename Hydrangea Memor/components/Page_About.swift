@@ -13,21 +13,21 @@ struct Page_About: View {
             
             Text("About Hydrangea Memor").font(.title).fontWeight(.bold).foregroundColor(.blue)
             
-            Text("Welcome to Hydrangea Memor, a language learning companion designed to enhance your vocabulary effortlessly.").font(.body).foregroundColor(.secondary)
+            Text("Welcome to Hydrangea Memor, a language learning app designed to enhance your vocabulary effortlessly.").font(.body).foregroundColor(.secondary)
             
             Text("Features").font(.headline).fontWeight(.bold).foregroundColor(.blue)
             
             VStack(alignment: .leading, spacing: 10) {
-                Text("📚 Extensive Word Lists").foregroundColor(.teal)
-                Text("Explore curated word lists for English proficiency exams like IELTS and GRE, and enrich your vocabulary.")
+                Text("📚 Word List View").foregroundColor(.teal)
+                Text("Display your words in the list. You can either review them all or part of the list.")
                 
-                Text("🇸🇪 Swedish Vocabulary").foregroundColor(.teal)
-                Text("Immerse yourself in the beauty of the Swedish language by learning carefully selected Swedish words.")
+                Text("🇸🇪 Word Card View").foregroundColor(.teal)
+                Text("Try testing yourself with the word card. You can convey to wherever you want — as long as you input the legal index number.")
             }
             
             Text("About the Developer").font(.headline).fontWeight(.bold).foregroundColor(.blue)
             
-            Text("Hydrangea Memor is crafted with love by Acan. An enthusiast for language, Acan is dedicated to making learning a joyous experience.").font(.body).foregroundColor(.secondary)
+            Text("This is Acan, a 21 year old undergraduate student in Tsinghua University, Beijing. I'm interested in softwares, devices and the internet. I sincerely look forward to improving all users' English by my codes.").font(.body).foregroundColor(.secondary)
             
         }.padding()
     }
