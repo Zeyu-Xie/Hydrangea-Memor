@@ -8,7 +8,7 @@
 import Foundation
 import SwiftUI
 
-struct Page_1: View {
+struct Page_Words: View {
     var body: some View {
         NavigationView {
             

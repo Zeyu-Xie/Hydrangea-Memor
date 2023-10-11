@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		FF5D3F9A2AD54C6F00B549AD /* WordListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D3F992AD54C6F00B549AD /* WordListView.swift */; };
-		FF5D3F9D2AD5600600B549AD /* About.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D3F9C2AD5600600B549AD /* About.swift */; };
-		FF5D3F9F2AD5609E00B549AD /* Page_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D3F9E2AD5609E00B549AD /* Page_1.swift */; };
+		FF5D3F9D2AD5600600B549AD /* Page_About.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D3F9C2AD5600600B549AD /* Page_About.swift */; };
+		FF5D3F9F2AD5609E00B549AD /* Page_Words.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5D3F9E2AD5609E00B549AD /* Page_Words.swift */; };
+		FF7D66B92AD6372600723AD3 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7D66B82AD6372600723AD3 /* Word.swift */; };
+		FF7D66BB2AD639AA00723AD3 /* Page_Develop.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7D66BA2AD639AA00723AD3 /* Page_Develop.swift */; };
 		FFB04C192AD4E3EB00EE6C4F /* Hydrangea_MemorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB04C182AD4E3EB00EE6C4F /* Hydrangea_MemorApp.swift */; };
 		FFB04C1B2AD4E3EB00EE6C4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB04C1A2AD4E3EB00EE6C4F /* ContentView.swift */; };
 		FFB04C1D2AD4E3EC00EE6C4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFB04C1C2AD4E3EC00EE6C4F /* Assets.xcassets */; };
@@ -39,8 +41,10 @@
 
 /* Begin PBXFileReference section */
 		FF5D3F992AD54C6F00B549AD /* WordListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListView.swift; sourceTree = "<group>"; };
-		FF5D3F9C2AD5600600B549AD /* About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = About.swift; sourceTree = "<group>"; };
-		FF5D3F9E2AD5609E00B549AD /* Page_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_1.swift; sourceTree = "<group>"; };
+		FF5D3F9C2AD5600600B549AD /* Page_About.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_About.swift; sourceTree = "<group>"; };
+		FF5D3F9E2AD5609E00B549AD /* Page_Words.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_Words.swift; sourceTree = "<group>"; };
+		FF7D66B82AD6372600723AD3 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
+		FF7D66BA2AD639AA00723AD3 /* Page_Develop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page_Develop.swift; sourceTree = "<group>"; };
 		FFB04C152AD4E3EB00EE6C4F /* Hydrangea Memor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hydrangea Memor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFB04C182AD4E3EB00EE6C4F /* Hydrangea_MemorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hydrangea_MemorApp.swift; sourceTree = "<group>"; };
 		FFB04C1A2AD4E3EB00EE6C4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,8 +88,9 @@
 			isa = PBXGroup;
 			children = (
 				FF5D3F992AD54C6F00B549AD /* WordListView.swift */,
-				FF5D3F9C2AD5600600B549AD /* About.swift */,
-				FF5D3F9E2AD5609E00B549AD /* Page_1.swift */,
+				FF5D3F9C2AD5600600B549AD /* Page_About.swift */,
+				FF5D3F9E2AD5609E00B549AD /* Page_Words.swift */,
+				FF7D66BA2AD639AA00723AD3 /* Page_Develop.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -153,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				FFB04C442AD4E77200EE6C4F /* WordList.swift */,
+				FF7D66B82AD6372600723AD3 /* Word.swift */,
 			);
 			path = structs;
 			sourceTree = "<group>";
@@ -287,9 +293,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF5D3F9D2AD5600600B549AD /* About.swift in Sources */,
+				FF7D66BB2AD639AA00723AD3 /* Page_Develop.swift in Sources */,
+				FF5D3F9D2AD5600600B549AD /* Page_About.swift in Sources */,
+				FF7D66B92AD6372600723AD3 /* Word.swift in Sources */,
 				FF5D3F9A2AD54C6F00B549AD /* WordListView.swift in Sources */,
-				FF5D3F9F2AD5609E00B549AD /* Page_1.swift in Sources */,
+				FF5D3F9F2AD5609E00B549AD /* Page_Words.swift in Sources */,
 				FFB04C1B2AD4E3EB00EE6C4F /* ContentView.swift in Sources */,
 				FFB04C192AD4E3EB00EE6C4F /* Hydrangea_MemorApp.swift in Sources */,
 				FFB04C452AD4E77200EE6C4F /* WordList.swift in Sources */,

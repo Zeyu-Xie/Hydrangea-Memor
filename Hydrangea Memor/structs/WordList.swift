@@ -7,12 +7,6 @@
 
 import Foundation
 
-struct Word: Codable {
-    var English: String? = ""
-    var Chinese: String? = ""
-    var Phonetic: String? = ""
-}
-
 struct WordList: Codable {
     var title: String? = ""
     var number: Int = 0

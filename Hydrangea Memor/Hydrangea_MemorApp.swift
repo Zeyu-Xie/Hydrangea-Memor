@@ -12,7 +12,7 @@ struct Hydrangea_MemorApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-        }.windowStyle(TitleBarWindowStyle()).commands{
+        }.commands{
             SidebarCommands()
         }
     }

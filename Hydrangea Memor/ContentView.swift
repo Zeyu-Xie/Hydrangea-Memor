@@ -15,19 +15,24 @@ struct ContentView: View {
         NavigationView{
             List {
                 
-                Text("Pages").font(.callout).foregroundColor(.secondary)
+                Text("Hydrangea_Memor").font(.callout).foregroundColor(.secondary)
                 
-                NavigationLink(destination: Page_1().navigationTitle("Words List")) {
-                    Image(systemName: "list.bullet.rectangle").foregroundColor(.blue)
-                    Text("Words List")
+                NavigationLink(destination: Page_Words().navigationTitle("Words")) {
+                    Image(systemName: "list.bullet.clipboard").foregroundColor(.blue)
+                    Text("Words")
                 }
                 
-                NavigationLink(destination: About()) {
+                NavigationLink(destination: Page_About().navigationTitle("About")) {
                     Image(systemName: "person").foregroundColor(.blue)
                     Text("About")
                 }
                 
                 Text("Others").font(.callout).foregroundColor(.secondary).padding(.top)
+                
+                NavigationLink(destination: Page_Develop().navigationTitle("Develop")) {
+                    Image(systemName: "desktopcomputer").foregroundColor(.blue)
+                    Text("Develop")
+                }
                 
                 
             }.frame(width: 150).listStyle(SidebarListStyle()).padding(.top).padding(.bottom)

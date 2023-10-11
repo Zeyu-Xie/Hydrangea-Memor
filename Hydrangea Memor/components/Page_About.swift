@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct About: View {
+struct Page_About: View {
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
             
