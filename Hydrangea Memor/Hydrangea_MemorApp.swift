@@ -2,7 +2,7 @@
 //  Hydrangea_MemorApp.swift
 //  Hydrangea Memor
 //
-//  Created by 谢泽钰 on 2023/10/10.
+//  Created by Acan on 2023/10/10.
 //
 
 import SwiftUI
@@ -12,6 +12,8 @@ struct Hydrangea_MemorApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-        }.windowStyle(TitleBarWindowStyle())
+        }.windowStyle(TitleBarWindowStyle()).commands{
+            SidebarCommands()
+        }
     }
 }
