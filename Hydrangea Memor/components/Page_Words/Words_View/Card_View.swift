@@ -55,7 +55,7 @@ struct Card_View: View {
         LazyVStack {
             
             if(position < number) {
-                Card(cardTitle: selectedOption != 0 ? wordList.items[position].English! : "", cardCallOut: wordList.items[position].Phonetic!, cardContent: selectedOption != 2 ? wordList.items[position].Chinese! : "").padding()
+                Card(cardTitle: selectedOption != 0 ? wordList.items[position].English! : "", cardCallOut: wordList.items[position].Phonetic != nil ? wordList.items[position].Phonetic!: "", cardContent: selectedOption != 2 ? wordList.items[position].Chinese! : "").padding()
             }
             HStack {
                 
